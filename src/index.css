@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  display: grid;
+  background: #333e5a;
+}
+
+a {
+  color: #fff;
+}
+
+header {
+  background: #fff;
+  color: #333e5a;
+  padding-top: 20px;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+main {
+  min-height: 80vh;
+  background: #fff;
+}
+main .controls {
+  text-align: center;
+  padding: 0.5em 0;
+  background: #fff;
+  color: #fff;
+}
+button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.26667;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 22px;
+  padding: 7px 10px;
+  border: 2px solid #0000;
+  border-radius: 0;
+  color: #fff;
+  background-color: #00823b;
+  -webkit-box-shadow: 0 2px 0 #003618;
+  box-shadow: 0 2px 0 #003618;
+  text-align: center;
+  vertical-align: top;
+  cursor: pointer;
+  -webkit-appearance: none; 
+}
+main canvas {
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: block;
+}
+footer {
+  background: #333e5a;
+  color: #fff;
+  text-align: center;
+}
