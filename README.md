@@ -6,7 +6,7 @@ You need Node.js installed to run the application.
 
 ```bash
 git clone https://github.com/eliothill/mic-drop.git
-cd react-web-audio
+cd mic-drop
 npm install
 ```
 
